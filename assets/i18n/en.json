@@ -73,6 +73,26 @@
     "OtherProjects.Title": "Personal Projects",
     "OtherProjects.Projects": [
         {
+            "Title": "Online Multiplayer Tic-Tac-Toe Game",
+            "Description": " Developed an online multiplayer Tic-Tac-Toe game using Unity, focusing on creating a seamless and engaging user experience. Implemented both client-side and server-side logic to handle real-time gameplay. Designed a clean and intuitive user interface with Unity's UI tools. Integrated with social login APIs for easy player authentication.",
+            "ghLink": "https://github.com/jaysp97",
+            "demoLink": "",
+            "Technologies": [
+                "Unity",
+                "C#"
+            ]
+        },
+        {
+            "Title": "Snakes!",
+            "Description": " Developed a multi-threaded Snake Game using C++ and SFML, implementing concurrent threads for game logic, rendering, and input handling. Enhanced the game with features like score tracking, graphical interface. Demonstrated proficiency in thread synchronization and real-time game development.",
+            "ghLink": "https://github.com/jaysp97",
+            "demoLink": "",
+            "Technologies": [
+                "C++",
+                "SFML"
+            ]
+        },
+        {
             "Title": "Attention Mechanisms in Image Captioning",
             "Description": "Led a comprehensive comparative analysis of RATT, XLAN, and Dual Attention models in Computer Vision. Utilized TensorFlow and PyTorch frameworks to meticulously implement and fine-tune the models. Employed the METEOR metric to assess the quality of complex texts, providing nuanced insights into the strengths and potential areas for enhancement of each model.",
             "ghLink": "https://github.com/jaysp97",
