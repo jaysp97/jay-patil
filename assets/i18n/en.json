@@ -84,7 +84,7 @@
         },
         {
             "Title": "Snakes!",
-            "Description": " Developed a multi-threaded Snake Game using C++ and SFML, implementing concurrent threads for game logic, rendering, and input handling. Enhanced the game with features like score tracking, graphical interface. Demonstrated proficiency in thread synchronization and real-time game development.",
+            "Description": " A Snake game designed using C++ and SFML involved guiding a snake to eat food, growing in length with each item consumed. The game is built with a graphical interface using SFML to handle rendering and input. It features real-time updates, collision detection, and increasing difficulty as the snake grows.",
             "ghLink": "https://github.com/jaysp97",
             "demoLink": "",
             "Technologies": [
