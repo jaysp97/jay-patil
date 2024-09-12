@@ -11,7 +11,7 @@
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
         "A highly skilled <span class='underline'>Full Stack Software Engineer</span> with a robust background in developing innovative web applications, <span class='underline'>machine learning models</span> and software solutions. Expertise spans across a wide range of programming languages <span class='underline'>(Python3, JavaScript, SQL, C++, C#, Java)</span> and web technologies <span class='underline'>(NodeJS, ReactJS, Angular, Flask,</span> <span class='underline'>NextJS, Web3)</span>.",
-        "Demonstrated success in collaborative environments, with notable projects including enterprise scale big data visualization web applications, <span class='underline'>efficient data retrieval systems</span>, and cutting-edge technology implementations like a <span class='underline'>De-Fi Dashboard, Attention Mechanisms</span> <span class='underline'>in Image Captioning</span>. Proven ability to leverage modern tools and frameworks <span class='underline'>(Git, Azure,</span> <span class='underline'>Docker, Terraform)</span> to enhance project outcomes and streamline development processes.",
+        "Demonstrated success in collaborative environments, with notable projects including enterprise scale big data visualization web applications, <span class='underline'>efficient data retrieval systems</span>, and cutting-edge technology implementations like a <span class='underline'>Distributed Datastore Optimization, Attention Mechanisms</span> <span class='underline'>in Image Captioning</span>. Proven ability to leverage modern tools and frameworks <span class='underline'>(Git, Azure,</span> <span class='underline'>Docker, Terraform)</span> to enhance project outcomes and streamline development processes.",
         "Some of the technologies that I have trained and worked on include (but are not limited to):"
     ],
     "Experience.Title": "Experience",
@@ -22,10 +22,12 @@
             "Title": "Software Engineer",
             "Date": "September 2020 - July 2022",
             "Description": [
-                "Worked in a collaborative culture with the Enterprise Vault.cloud team to develop a frontend user interface of Veritas Alta to facilitate the data discovery from major data sources like Slack, Teams, Outlook, OneDrive, Bloomberg, etc.",
-                "Took the ownership to update old code base to modern development standards, reducing loading time of the application by 46% using HTML/CSS, JavaScript, Angular and C#. Resulted in big influx of new customers.",
-                "Implemented REST API-centric architecture using C# to enhance retrieval of data from Azure Blob storage in .NET by 27%.",
-                "Designed database, backend and developed stored procedures using SQL in MSSQL for efficient database management.",
+                "Worked in a Scrum-based agile environment and developed intuitive user interfaces using Angular to facilitate the data discovery of more than 1 billion messages and emails from major data sources like Teams, Outlook, Slack, etc.",
+                "Took the ownership to update old code base to modern development standards making it more secure by implementing API authorization in .NET Core and reducing loading time of the application by 46% by implementing lazy loading of pages.",
+                "Leveraged Elasticsearch to implement fuzzy search on more than a billion MS Teams messages to retrieve relevant data.",
+                "Developed a web service to integrate and connect One Drive services from Merge1 to Veritas’ internal platform.",
+                "Implemented Azure Storage REST APIs using C# in .NET to retrieve data from Blob storage to support the email export service.",
+                "Optimized stored procedures in MSSQL by using indexed columns in queries and writing modular code.",
                 "Coordinated efficient large-scale features deployments using Terraform and Puppet and managed CI/CD using TFS."
             ]
         },
@@ -35,8 +37,9 @@
             "Title": "Research Assistant (Software Developer)",
             "Date": "September 2022 - Present",
             "Description": [
-                "Designed and developed a user-engaging and cross-browser compatible web application for data visualization of complex splicing networks using HTML, CSS, TypeScript, Angular, and Cytoscape.js.",
-                "Assisted in data collection, analysis and interpretation of Gene Data using Python and statistical techniques."
+                "Designed and developed a user-engaging and cross-browser compatible web application for data analysis and rendering of complex human gene-splicing networks consisting of more than 2k nodes using Angular, and Cytoscape.js.",
+                "Designed ETL pipelines to compile and cleanse data from sources like NCBI and making it ready for Cox Analysis.",
+                "Conducted Principal Component Analysis on human gene dataset and reduced dimensionality to improve compute time of training and eliminate unnecessary correlated variable."
             ]
         },
         
@@ -73,23 +76,25 @@
     "OtherProjects.Title": "Personal Projects",
     "OtherProjects.Projects": [
         {
-            "Title": "Online Multiplayer Tic-Tac-Toe Game",
-            "Description": " Developed an online multiplayer Tic-Tac-Toe game using Unity, focusing on creating a seamless and engaging user experience. Implemented both client-side and server-side logic to handle real-time gameplay. Designed a clean and intuitive user interface with Unity's UI tools. Integrated with social login APIs for easy player authentication.",
+            "Title": "Text-to-Video Generation through Advanced Diffusion Models (GenAI)",
+            "Description": " Spearheaded a pioneering text-to-video (T2V) generation project utilizing the Tune-A-Video methodology, focused on one-shot tuning of image diffusion models to elevate the quality and contextual accuracy of video output across diverse data domains. Utilized TensorFlow and PyTorch frameworks to meticulously implement and fine-tune model.",
             "ghLink": "https://github.com/jaysp97",
             "demoLink": "",
             "Technologies": [
-                "Unity",
-                "C#"
+                "Python",
+                "Linux",
+                "Tensorflow"
             ]
         },
         {
-            "Title": "Snakes!",
-            "Description": " A Snake game designed using C++ and SFML involved guiding a snake to eat food, growing in length with each item consumed. The game is built with a graphical interface using SFML to handle rendering and input. It features real-time updates, collision detection, and increasing difficulty as the snake grows.",
+            "Title": "Distributed Data Store Optimization",
+            "Description": " Implemented a query batching and pipelining optimizations to a distributed highly available key value store(dqlite) built using sqlite and raft consensus protocol (open-source canonical implementation) achieving 10% reduction in response time. Created benchmarks to measure performance of different scenarios like node failure, membership changes, network partition.",
             "ghLink": "https://github.com/jaysp97",
             "demoLink": "",
             "Technologies": [
-                "C++",
-                "SFML"
+                "C",
+                "dqlite",
+                "Raft"
             ]
         },
         {
